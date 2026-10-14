@@ -7,7 +7,28 @@ export default function App() {
       <Background />
       <div className="mx-auto max-w-[1280px] px-6 sm:px-10">
         <header className="flex items-center justify-between border-b border-violet-100 py-8">
-          <strong className="text-mauve tracking-[.24em]">WILD / STORIES</strong>
+        <div className="flex items-center gap-3">
+          <img
+              src="public/images/avatar.png"
+              alt="Avatar da desenvolvedora"
+              className="
+              w-14 h-14
+              rounded-full object-cover
+              border-2 border-transparent
+              transition-all duration-300 ease-out
+             hover:border-violet-600
+              hover:scale-110
+              hover:-translate-y-1
+              hover:shadow-lg
+              hover:shadow-violet-300/50
+              cursor-pointer
+              "
+          />
+
+          <strong className="text-mauve tracking-[.24em]">
+              WILD / STORIES
+          </strong>
+        </div>
           <nav aria-label="Navegação principal" className="text-xs font-semibold tracking-widest text-slate-500">
             EXPLORAR · SOBRE
           </nav>
